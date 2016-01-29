@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3B19241C5B1B0200F5BF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B19231C5B1B0200F5BF15 /* AppDelegate.swift */; };
+		2A3B19261C5B1B0200F5BF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B19251C5B1B0200F5BF15 /* ViewController.swift */; };
+		2A3B19291C5B1B0200F5BF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B19271C5B1B0200F5BF15 /* Main.storyboard */; };
+		2A3B192B1C5B1B0200F5BF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B192A1C5B1B0200F5BF15 /* Assets.xcassets */; };
+		2A3B192E1C5B1B0200F5BF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B192C1C5B1B0200F5BF15 /* LaunchScreen.storyboard */; };
+		2A3B19391C5B1B0200F5BF15 /* SuoerCooolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B19381C5B1B0200F5BF15 /* SuoerCooolTests.swift */; };
+		2A3B19441C5B1B0200F5BF15 /* SuoerCooolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B19431C5B1B0200F5BF15 /* SuoerCooolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A3B19351C5B1B0200F5BF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3B19181C5B1B0200F5BF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3B191F1C5B1B0200F5BF15;
+			remoteInfo = SuoerCoool;
+		};
+		2A3B19401C5B1B0200F5BF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3B19181C5B1B0200F5BF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3B191F1C5B1B0200F5BF15;
+			remoteInfo = SuoerCoool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3B19201C5B1B0200F5BF15 /* SuoerCoool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuoerCoool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3B19231C5B1B0200F5BF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A3B19251C5B1B0200F5BF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A3B19281C5B1B0200F5BF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A3B192A1C5B1B0200F5BF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A3B192D1C5B1B0200F5BF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A3B192F1C5B1B0200F5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3B19341C5B1B0200F5BF15 /* SuoerCooolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuoerCooolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3B19381C5B1B0200F5BF15 /* SuoerCooolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuoerCooolTests.swift; sourceTree = "<group>"; };
+		2A3B193A1C5B1B0200F5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3B193F1C5B1B0200F5BF15 /* SuoerCooolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuoerCooolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3B19431C5B1B0200F5BF15 /* SuoerCooolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuoerCooolUITests.swift; sourceTree = "<group>"; };
+		2A3B19451C5B1B0200F5BF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3B191D1C5B1B0200F5BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B19311C5B1B0200F5BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B193C1C5B1B0200F5BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3B19171C5B1B0200F5BF15 = {
+			isa = PBXGroup;
+			children = (
+				2A3B19221C5B1B0200F5BF15 /* SuoerCoool */,
+				2A3B19371C5B1B0200F5BF15 /* SuoerCooolTests */,
+				2A3B19421C5B1B0200F5BF15 /* SuoerCooolUITests */,
+				2A3B19211C5B1B0200F5BF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3B19211C5B1B0200F5BF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B19201C5B1B0200F5BF15 /* SuoerCoool.app */,
+				2A3B19341C5B1B0200F5BF15 /* SuoerCooolTests.xctest */,
+				2A3B193F1C5B1B0200F5BF15 /* SuoerCooolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3B19221C5B1B0200F5BF15 /* SuoerCoool */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B19231C5B1B0200F5BF15 /* AppDelegate.swift */,
+				2A3B19251C5B1B0200F5BF15 /* ViewController.swift */,
+				2A3B19271C5B1B0200F5BF15 /* Main.storyboard */,
+				2A3B192A1C5B1B0200F5BF15 /* Assets.xcassets */,
+				2A3B192C1C5B1B0200F5BF15 /* LaunchScreen.storyboard */,
+				2A3B192F1C5B1B0200F5BF15 /* Info.plist */,
+			);
+			path = SuoerCoool;
+			sourceTree = "<group>";
+		};
+		2A3B19371C5B1B0200F5BF15 /* SuoerCooolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B19381C5B1B0200F5BF15 /* SuoerCooolTests.swift */,
+				2A3B193A1C5B1B0200F5BF15 /* Info.plist */,
+			);
+			path = SuoerCooolTests;
+			sourceTree = "<group>";
+		};
+		2A3B19421C5B1B0200F5BF15 /* SuoerCooolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B19431C5B1B0200F5BF15 /* SuoerCooolUITests.swift */,
+				2A3B19451C5B1B0200F5BF15 /* Info.plist */,
+			);
+			path = SuoerCooolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3B191F1C5B1B0200F5BF15 /* SuoerCoool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3B19481C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCoool" */;
+			buildPhases = (
+				2A3B191C1C5B1B0200F5BF15 /* Sources */,
+				2A3B191D1C5B1B0200F5BF15 /* Frameworks */,
+				2A3B191E1C5B1B0200F5BF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuoerCoool;
+			productName = SuoerCoool;
+			productReference = 2A3B19201C5B1B0200F5BF15 /* SuoerCoool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A3B19331C5B1B0200F5BF15 /* SuoerCooolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3B194B1C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCooolTests" */;
+			buildPhases = (
+				2A3B19301C5B1B0200F5BF15 /* Sources */,
+				2A3B19311C5B1B0200F5BF15 /* Frameworks */,
+				2A3B19321C5B1B0200F5BF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3B19361C5B1B0200F5BF15 /* PBXTargetDependency */,
+			);
+			name = SuoerCooolTests;
+			productName = SuoerCooolTests;
+			productReference = 2A3B19341C5B1B0200F5BF15 /* SuoerCooolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A3B193E1C5B1B0200F5BF15 /* SuoerCooolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3B194E1C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCooolUITests" */;
+			buildPhases = (
+				2A3B193B1C5B1B0200F5BF15 /* Sources */,
+				2A3B193C1C5B1B0200F5BF15 /* Frameworks */,
+				2A3B193D1C5B1B0200F5BF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3B19411C5B1B0200F5BF15 /* PBXTargetDependency */,
+			);
+			name = SuoerCooolUITests;
+			productName = SuoerCooolUITests;
+			productReference = 2A3B193F1C5B1B0200F5BF15 /* SuoerCooolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3B19181C5B1B0200F5BF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cooper Simson";
+				TargetAttributes = {
+					2A3B191F1C5B1B0200F5BF15 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2A3B19331C5B1B0200F5BF15 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A3B191F1C5B1B0200F5BF15;
+					};
+					2A3B193E1C5B1B0200F5BF15 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A3B191F1C5B1B0200F5BF15;
+					};
+				};
+			};
+			buildConfigurationList = 2A3B191B1C5B1B0200F5BF15 /* Build configuration list for PBXProject "SuoerCoool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3B19171C5B1B0200F5BF15;
+			productRefGroup = 2A3B19211C5B1B0200F5BF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3B191F1C5B1B0200F5BF15 /* SuoerCoool */,
+				2A3B19331C5B1B0200F5BF15 /* SuoerCooolTests */,
+				2A3B193E1C5B1B0200F5BF15 /* SuoerCooolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3B191E1C5B1B0200F5BF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3B192E1C5B1B0200F5BF15 /* LaunchScreen.storyboard in Resources */,
+				2A3B192B1C5B1B0200F5BF15 /* Assets.xcassets in Resources */,
+				2A3B19291C5B1B0200F5BF15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B19321C5B1B0200F5BF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B193D1C5B1B0200F5BF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3B191C1C5B1B0200F5BF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3B19261C5B1B0200F5BF15 /* ViewController.swift in Sources */,
+				2A3B19241C5B1B0200F5BF15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B19301C5B1B0200F5BF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3B19391C5B1B0200F5BF15 /* SuoerCooolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3B193B1C5B1B0200F5BF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3B19441C5B1B0200F5BF15 /* SuoerCooolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A3B19361C5B1B0200F5BF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3B191F1C5B1B0200F5BF15 /* SuoerCoool */;
+			targetProxy = 2A3B19351C5B1B0200F5BF15 /* PBXContainerItemProxy */;
+		};
+		2A3B19411C5B1B0200F5BF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3B191F1C5B1B0200F5BF15 /* SuoerCoool */;
+			targetProxy = 2A3B19401C5B1B0200F5BF15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A3B19271C5B1B0200F5BF15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3B19281C5B1B0200F5BF15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A3B192C1C5B1B0200F5BF15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3B192D1C5B1B0200F5BF15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A3B19461C5B1B0200F5BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A3B19471C5B1B0200F5BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A3B19491C5B1B0200F5BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuoerCoool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCoool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A3B194A1C5B1B0200F5BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuoerCoool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCoool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A3B194C1C5B1B0200F5BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuoerCooolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCooolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuoerCoool.app/SuoerCoool";
+			};
+			name = Debug;
+		};
+		2A3B194D1C5B1B0200F5BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuoerCooolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCooolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuoerCoool.app/SuoerCoool";
+			};
+			name = Release;
+		};
+		2A3B194F1C5B1B0200F5BF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuoerCooolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCooolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuoerCoool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A3B19501C5B1B0200F5BF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuoerCooolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konnektsolutions.SuoerCooolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuoerCoool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3B191B1C5B1B0200F5BF15 /* Build configuration list for PBXProject "SuoerCoool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3B19461C5B1B0200F5BF15 /* Debug */,
+				2A3B19471C5B1B0200F5BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3B19481C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCoool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3B19491C5B1B0200F5BF15 /* Debug */,
+				2A3B194A1C5B1B0200F5BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A3B194B1C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCooolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3B194C1C5B1B0200F5BF15 /* Debug */,
+				2A3B194D1C5B1B0200F5BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A3B194E1C5B1B0200F5BF15 /* Build configuration list for PBXNativeTarget "SuoerCooolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3B194F1C5B1B0200F5BF15 /* Debug */,
+				2A3B19501C5B1B0200F5BF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3B19181C5B1B0200F5BF15 /* Project object */;
+}
